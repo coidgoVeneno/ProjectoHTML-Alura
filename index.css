@@ -48,6 +48,9 @@ body{
 .presentacion_enlace{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 
 .presentacion_enlace_link{
@@ -61,4 +64,13 @@ body{
     font-weight: 600px;
     text-decoration: none;
     color: black;
+    border: 2px solid #226ef2;
+}
+
+.presentacion_enlace_titulo{
+    font-size: 26px;
+    font-family: "Krona One", serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
