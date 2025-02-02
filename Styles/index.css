@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --colorPrimario: #000000;
+    --colorSecundario: #ffffff;
+    --colorTerciario: #22d4fd;
+    --colorHover: #272727;
+
+    --fuenteMontzerrat:"Montserrat", serif;
+    --fuenteKrona: "Krona One", serif;
+
+}
+
 
 *{
     margin: 0;
@@ -7,14 +18,14 @@
 }
 
 body{
-    background-color: black;
+    background-color: var(--colorPrimario);
     color: white;
     
     box-sizing: border-box;
 }
 
 .negrita{
-    color: blue;
+    color: var(--colorTerciario);
 }
 
 .presentacion{
@@ -107,4 +118,5 @@ body{
     font-size: 24px;
     font-weight: 600px;
     text-decoration: none;
+    color: white;
 }
